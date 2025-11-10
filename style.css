@@ -30,3 +30,23 @@ main {
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
+
+/* Container for social icons */
+.social-links {
+    margin-top: 10px;
+}
+
+/* Make icons small, spaced, and clickable */
+.social-links a img {
+    width: 30px;          /* size of icons */
+    height: 30px;
+    margin: 0 10px;       /* space between icons */
+    vertical-align: middle;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Add hover effect */
+.social-links a img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
