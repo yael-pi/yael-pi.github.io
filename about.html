@@ -36,22 +36,6 @@
         </a>
         </div>
     </footer>
-    <script>
-    // Select all social link images
-    const icons = document.querySelectorAll('.social-links img');
-
-    icons.forEach(icon => {
-        const originalSrc = icon.src;
-        const colorSrc = icon.getAttribute('data-color');
-
-        icon.addEventListener('mouseenter', () => {
-            icon.src = colorSrc;  // switch to color image
-        });
-
-        icon.addEventListener('mouseleave', () => {
-            icon.src = originalSrc;  // switch back to grayscale
-        });
-    });
-    </script>
+    
 </body>
 </html>
