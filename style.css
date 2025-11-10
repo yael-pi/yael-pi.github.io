@@ -54,7 +54,7 @@ main {
 
 .blog-image {
     width: 100%;        /* fill the container */
-    max-width: 600px;   /* limit maximum width */
+    max-width: 300px;   /* limit maximum width */
     height: auto;
     display: block;
     margin: 15px auto;  /* center image */
@@ -70,7 +70,7 @@ main {
 
 .blog-preview img.blog-image-preview {
     width: 100%;
-    max-width: 400px;
+    max-width: 200px;
     display: block;
     margin: 10px 0;
     border-radius: 6px;
