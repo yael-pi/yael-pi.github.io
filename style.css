@@ -51,6 +51,16 @@ main {
     filter: none;
     transform: scale(1.05);
 }
+
+.blog-image {
+    width: 100%;        /* fill the container */
+    max-width: 600px;   /* limit maximum width */
+    height: auto;
+    display: block;
+    margin: 15px auto;  /* center image */
+    border-radius: 8px; /* optional rounded corners */
+}
+
 .blog-preview {
     max-width: 700px;
     margin: 20px auto;
