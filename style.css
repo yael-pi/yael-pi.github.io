@@ -35,14 +35,18 @@ main {
     margin-top: 10px;
 }
 
+/* Icons start as grayscale */
 .social-links a img {
     width: 35px;
     height: 35px;
     margin: 0 10px;
     vertical-align: middle;
-    transition: transform 0.2s ease;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.2s ease;
 }
 
+/* Hover: full color + small zoom */
 .social-links a img:hover {
+    filter: grayscale(0%);
     transform: scale(1.1);
 }
