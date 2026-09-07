@@ -69,12 +69,12 @@ main {
 }
 
 .blog-preview a {
-    color: green;
+    color: #bbff99;
     text-decoration: none;
 }
 
 .blog-preview a:hover {
-    color: darkgreen;
+    color: #339900;
 }
 
 .blog-preview img.blog-image-preview {
