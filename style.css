@@ -114,8 +114,9 @@ main {
 }
 
 .header-spin-logo {
-  transform-origin: center;
-  animation: logoSpin 6s linear infinite;
+    display: inline-block; 
+    transform-origin: center;
+    animation: logoSpin 6s linear infinite;
 }
 
 @keyframes logoSpin {
