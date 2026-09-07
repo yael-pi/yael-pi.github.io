@@ -70,11 +70,12 @@ main {
 
 .blog-preview a {
     color: #339900;
+    font-style: italic;
     text-decoration: none;
 }
 
 .blog-preview a:hover {
-    color: #113300;
+    color: black;
 }
 
 .blog-preview img.blog-image-preview {
