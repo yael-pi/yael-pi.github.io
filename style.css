@@ -68,6 +68,15 @@ main {
     border-bottom: 1px solid #ccc;
 }
 
+.blog-preview a {
+    color: green;
+    text-decoration: none;
+}
+
+.blog-preview a:hover {
+    color: darkgreen;
+}
+
 .blog-preview img.blog-image-preview {
     width: 100%;
     max-width: 200px;
