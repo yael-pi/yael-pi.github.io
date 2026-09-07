@@ -112,3 +112,13 @@ main {
     overflow: hidden;
     width: calc(var(--rating) / 5 * 100%);
 }
+
+.header-spin-logo {
+  transform-origin: center;
+  animation: logoSpin 6s linear infinite;
+}
+
+@keyframes logoSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
